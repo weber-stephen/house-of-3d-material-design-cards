@@ -8,7 +8,8 @@ A fun experiment with CSS3, 3D and playing with Material Design Cards (in the wr
 
 [http://stephenweber.io/house-of-material-design-cards/](http://stephenweber.io/house-of-material-design-cards/)
 
-######Please note that I only put in one delicious place to eat as an example.
+Or see it here:
+[https://youtu.be/doRO6IjXFgk]https://youtu.be/doRO6IjXFgk
 
 ## Installation
 
@@ -73,8 +74,8 @@ No history yet.
 
 ## Credits
 
-The Flag Animation is provided by ![http://codepen.io/josemc/]José Carneiro's Code Pen Located Here:
-![http://codepen.io/josemc/pen/Pwaxwp]http://codepen.io/josemc/pen/Pwaxwp
+The Flag Animation is provided by [http://codepen.io/josemc/]José Carneiro's Code Pen Located Here:
+[http://codepen.io/josemc/pen/Pwaxwp]http://codepen.io/josemc/pen/Pwaxwp
 
 ## License
 
