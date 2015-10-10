@@ -1,0 +1,91 @@
+$grey: #202020;
+$white: #fff;
+$flag-red-color: #801929;
+$blue: #1D3F5A;
+
+$speed: 6s;
+
+$relative-flag-size: .2;
+
+// SIZES
+$flag-width: 22em * $relative-flag-size;
+$flag-stripe-height: 13em * $relative-flag-size;
+$he: 1em * $relative-flag-size;
+$bl: 7em * $relative-flag-size;
+
+.flag {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: $flag-width;
+  transform: translateX(-50%) translateY(-50%) translateZ(100px);
+}
+
+.stripe {
+  width: $flag-width;
+  height: $he;
+  background-color: $flag-red-color;
+  transform-origin: left;
+  animation: animation $speed infinite;
+
+  &:nth-child(even) {
+    background-color: $white;
+  }
+  &:nth-child(n+7) {
+    width: $flag-stripe-height;
+  }
+}
+
+$class-slug: stripe !default;
+
+$start-value: -1.3s;
+$incriment-value: .1;
+
+@for $i from 1 through 13 {
+  .#{$class-slug}:nth-child(#{$i}) {
+    -webkit-animation-delay: $start-value + (.1 * $i);
+            animation-delay: $start-value + (.1 * $i);
+  }
+}
+
+.block {
+  position: absolute;
+  top: 6 * $he;
+  left: $flag-stripe-height;
+  width: $flag-width - $flag-stripe-height;
+  height: $bl;
+  background-color: $blue;
+  transform-origin: left;
+  animation: animation $speed infinite;
+  animation-delay: -5.5s;
+}
+
+@keyframes animation {
+  0%   {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  5%   {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  30% {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  30.5% {
+    transform-origin: right;
+  }
+  70% {
+    transform: scaleX(1);
+    transform-origin: right;
+  }
+  95% {
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+  100% {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+}
