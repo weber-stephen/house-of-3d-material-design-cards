@@ -74,7 +74,7 @@ No history yet.
 
 ## Credits
 
-The Flag Animation is provided by [http://codepen.io/josemc/]José Carneiro's Code Pen Located Here:
+The Flag Animation is provided by José Carneiro's Code Pen Located Here:
 [http://codepen.io/josemc/pen/Pwaxwp]http://codepen.io/josemc/pen/Pwaxwp
 
 ## License
