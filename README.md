@@ -9,7 +9,7 @@ A fun experiment with CSS3, 3D and playing with Material Design Cards (in the wr
 [http://stephenweber.io/house-of-material-design-cards/](http://stephenweber.io/house-of-material-design-cards/)
 
 Or see it here:
-[https://youtu.be/doRO6IjXFgk]https://youtu.be/doRO6IjXFgk](https://youtu.be/doRO6IjXFgk]https://youtu.be/doRO6IjXFgk)
+[https://youtu.be/doRO6IjXFgk](https://youtu.be/doRO6IjXFgk]https://youtu.be/doRO6IjXFgk)
 
 ## Installation
 
